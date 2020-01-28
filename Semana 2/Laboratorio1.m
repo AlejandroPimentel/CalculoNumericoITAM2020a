@@ -3,7 +3,7 @@ clear;
 clc;
 
 
-fun = @(x)myFun(x);
+fun = @(x)anualidad(x);
 % GRAFICACI�N
 a = 0.004; b = 0.02;
 xx = linspace(a,b,100);
