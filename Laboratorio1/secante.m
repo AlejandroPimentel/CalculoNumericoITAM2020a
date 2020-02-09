@@ -1,5 +1,5 @@
 function [x, f_x, kitter] = secante(fun, a_1, a_2)
-    tol = 1e-12;
+    tol = 1e-8;
     maxitter = 1000;
     kitter = 1;
     f_1 = fun(a_1);

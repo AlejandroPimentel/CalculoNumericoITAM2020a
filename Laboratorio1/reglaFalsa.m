@@ -1,6 +1,6 @@
 function [x, f_x, kitter] = reglaFalsa(fun, a, b)
 
-    tol = 1e-12;
+    tol = 1e-8;
     maxitter = 1000;
     kitter = 1;
     f_a = fun(a);
