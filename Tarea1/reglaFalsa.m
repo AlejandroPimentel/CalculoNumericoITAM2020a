@@ -1,3 +1,7 @@
+%{    
+    Autor: Alejandro García Pimentel
+    Clave única: 138771
+%}
 function [x, f_x, kitter] = reglaFalsa(fun, a, b)
 
     tol = 1e-8;
