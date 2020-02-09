@@ -1,3 +1,7 @@
+%{    
+    Autor: Alejandro García Pimentel
+    Clave única: 138771
+%}
 function [x, f_x, kitter] = newton(fun, x)
     tol = 1e-12;
     maxitter = 1000;

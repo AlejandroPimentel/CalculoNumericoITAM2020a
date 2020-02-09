@@ -1,3 +1,7 @@
+%{    
+    Autor: Alejandro García Pimentel
+    Clave única: 138771
+%}
 function [x, f_x, kitter] = secante(fun, a_1, a_2)
     tol = 1e-8;
     maxitter = 1000;

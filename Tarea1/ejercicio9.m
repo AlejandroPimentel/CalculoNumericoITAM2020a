@@ -1,3 +1,7 @@
+%{    
+    Autor: Alejandro García Pimentel
+    Clave única: 138771
+%}
 %{
 Aproxime con el método de la razón dorada, el mínimo local del polinomio, 
 p(x) = (x − 1)(x − (3/2))(x − 2).

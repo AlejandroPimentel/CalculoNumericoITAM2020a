@@ -1,4 +1,7 @@
-
+%{    
+    Autor: Alejandro García Pimentel
+    Clave única: 138771
+%}
 %{
 El pago de una hipoteca de una casa en un periodo fijo de tiempo requiere 
 la ecuación de anualidad ordinaria

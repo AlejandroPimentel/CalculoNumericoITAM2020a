@@ -1,3 +1,7 @@
+%{    
+    Autor: Alejandro García Pimentel
+    Clave única: 138771
+%}
 function det = polinomio_c(lambda)
     %POLINOMIO_C Summary of this function goes here
     %   Detailed explanation goes here

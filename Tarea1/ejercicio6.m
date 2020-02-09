@@ -1,3 +1,7 @@
+%{    
+    Autor: Alejandro García Pimentel
+    Clave única: 138771
+%}
 %{
 Aproxime los valores propios de la matriz
      1 1 1

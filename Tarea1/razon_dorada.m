@@ -1,3 +1,7 @@
+%{    
+    Autor: Alejandro García Pimentel
+    Clave única: 138771
+%}
 function y = razon_dorada(fun,a,b)
 
 tol = 1e-8;
