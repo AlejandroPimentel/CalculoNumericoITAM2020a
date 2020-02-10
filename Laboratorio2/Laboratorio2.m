@@ -10,7 +10,7 @@ hold on
 fprintf('Programa pausado, pulse enter para continuar.\n');
 pause;
 fprintf('Calculando punto fijo de y(x) = (1/2)*( x + (2/x)) ... (ver gráfica) \n');
-fixed_point = puntoFijo(fun, 1.8);
+[fixed_point, iteraciones] = puntoFijo(fun, 1.8);
 vert_line = linspace(1,fixed_point,100);
 plot(repelem(fixed_point, 100), vert_line,"--r")
 hold off
