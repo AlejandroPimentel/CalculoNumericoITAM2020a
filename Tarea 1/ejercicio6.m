@@ -17,8 +17,9 @@ det(A-lambda*I)
 %}
 
 y_characteristic = [];
-fun = @(x)polinomio_c(x);
-a = -1; b = 9;
+A = [1 1 1; 1 2 3; 1 3 6];
+fun = @(x)polinomio_c(x,A);
+a = 0; b = 8;
 xx = linspace(a,b,100);
 for c = xx
     y_characteristic = [y_characteristic fun(c)];

@@ -2,10 +2,10 @@
     Autor: Alejandro García Pimentel
     Clave única: 138771
 %}
-function det = polinomio_c(lambda)
+function det = polinomio_c(lambda, A)
     %POLINOMIO_C Summary of this function goes here
     %   Detailed explanation goes here
-    A_1 = eye(3).*lambda - [1 1 1; 1 2 3; 1 3 6];
+    A_1 = A - eye(3).*lambda;
     a = A_1(1,1);
     b = A_1(1,2);
     c = A_1(1,3);
