@@ -9,14 +9,14 @@ function [fixedPoint_,kitter] = puntoFijo(fun,x_0)
     kitter = 1;
     x = x_0;
     x_ = fun(x);
-    tol = 1e-12;
-    while (kitter < maxitter) && (abs(x - x_) > tol)
+    tol = 2e-16;
+    while (kitter < maxitter) && (abs(fun(x) - fun(x_)) > tol) && (abs(x - x_) > tol)
         x = x_;
         x_=fun(x);
         kitter = kitter+1;
     end
     fixedPoint_ = x_;
-    if abs(x - x_) > tol
+    if abs(fun(x) - fun(x_)) > tol  && (abs(x - x_) > tol)
         fprintf('\n--------------------------\n No hubo convergencia en  %.0f interaciones ): \n--------------------------\n', kitter)
     else
         fprintf('\n--------------------------\n Metodo de punto fijo \nNumero de iteraciones = %.0f \nPuntoFijo = %.12f  \n--------------------------\n', kitter, fixedPoint_)

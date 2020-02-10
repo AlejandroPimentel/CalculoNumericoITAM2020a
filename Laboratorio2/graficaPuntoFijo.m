@@ -1,4 +1,4 @@
-%{    
+ %{    
     Autor: Alejandro García Pimentel
     Clave única: 138771
 %}
