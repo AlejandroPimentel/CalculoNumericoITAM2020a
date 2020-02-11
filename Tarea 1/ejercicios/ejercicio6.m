@@ -15,10 +15,10 @@ propios de A, λ_1 = 0.1270, λ_2 = 1.0, λ_3 = 7.8730.
 
 det(A-lambda*I)
 %}
-
+addpath("./funciones")
 y_characteristic = [];
 A = [1 1 1; 1 2 3; 1 3 6];
-fun = @(x)polinomio_c(x,A);
+fun = @(x)polinomio_ej6(x,A);
 a = 0; b = 8;
 xx = linspace(a,b,100);
 for c = xx

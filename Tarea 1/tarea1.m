@@ -2,6 +2,8 @@
     Autor: Alejandro García Pimentel
     Clave única: 138771
 %}
+addpath("./ejercicios")
+addpath("./funciones")
 clear; clc; close all;
 fprintf('\nCorriendo ejercicio numero 3 ... \n');
 ejercicio3()

@@ -12,9 +12,9 @@ una hipoteca de $2, 000, 000 por una casa a 30 años y que los pagos máximos
 que se puede realizar el cliente son de $10, 000 pesos mensuales. ¿Cuál 
 será el interés más alto que podrá pagar ?
 %}
+addpath("./funciones")
 
-
-fun = @(x)anualidad(x);
+fun = @(x)anualidad_ej3(x);
 % GRAFICACIÓN
 a = 0.001; b = .01;
 xx = linspace(a,b,100);
