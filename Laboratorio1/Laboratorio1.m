@@ -1,7 +1,7 @@
 close all;
 clear;
 clc;
-
+addpath("./funciones")
 
 fun = @(x)anualidad(x);
 % GRAFICACI�N

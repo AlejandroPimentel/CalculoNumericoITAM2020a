@@ -2,6 +2,8 @@
     Autor: Alejandro García Pimentel
     Clave única: 138771
 %}
+addpath("./ejercicios")
+addpath("./funciones")
 close all; clear; clc;
 %{-     Ejercicios 1 y 2        -%}
 fun = inline("(x + (2/x))/2");
@@ -18,5 +20,5 @@ fprintf('Programa pausado, pulse enter para continuar.\n');
 pause;
 
 %{-     Ejercicio 3        -%}
-ejercicio3()
+ejercicio3_lab2()
 
